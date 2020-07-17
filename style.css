@@ -1,0 +1,305 @@
+/*////////////////////////////////////////////////////This is the CSS for the Visit Nebraska Project/////////////////////////////////////////////////*/
+
+
+
+.CSSGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto 675px auto 700px;
+    justify-content: center;
+    grid-template-areas:
+    "navLogo navText"
+    /*"logoBannerArea logoBannerArea"*/
+    "headerContentText Content"
+    "aboutMeSect aboutMeSect"
+    "aboutMeSectBar  aboutMeSectBar"
+    "casePreview1 casePreview1Pic";
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #F1F1F1;
+}
+a:visited {
+    color: #F1F1F1;
+}
+a:hover {
+    color: #F1F1F1;
+}
+a:active {
+    color: #F1F1F1;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif, Muli; 
+    font-size: 48px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 500; 
+    line-height: 15.4px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 567; 
+    line-height: 20px;
+    word-spacing:4.4px;
+    
+}
+
+
+.navLogo {
+    grid-template-area: navLogo;
+    height:auto;
+    background-color: #4C444C;
+    align-content: center;
+}
+
+#navLogoPadd {
+    padding-left: 140px;
+    padding-right: 100px;
+}
+
+.navText {
+    grid-template-area: navText;
+    height:auto;
+    background-color: #4C444C;
+    text-decoration: none;
+    font-size:25px;
+    color: #F1F1F1;
+    text-align:right;
+    padding-left:110px;
+    padding-right:150px;
+    word-spacing: 20.3px;
+}
+
+#navTextPadd {
+    width:370px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left:0px;
+    line-height: 40px;
+    
+}
+
+
+.headerContentText {
+    grid-template-area: headerContentText;
+    height:auto;
+    width:485px;
+    margin:20px;
+    margin-top:20px;
+    margin-right:0px;
+}
+
+#headerContentTextPadd {
+    padding-top:150px;
+}
+
+.myButton {
+	box-shadow: 3px 3px 0px 0px #1c1b18;
+	background:linear-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	padding:9px 27px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);S
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#myButtonPadd {
+    margin-left:210px;
+    margin-right:260px;
+    padding-top:7px;
+    padding-bottom:15px;
+}
+
+
+#headerImagePadd {
+    padding-top:40px;
+}
+
+.box{
+    font-family: Arial;
+    height: 463px;
+    width:660px;
+    background-image: linear-gradient(to right, /*#e6e6e6*/#e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, white);
+    color:black;
+    /*text-align: center;*/
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+    margin-right:0px;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.aboutMeSect {
+    grid-template-area: aboutMeSect;
+    grid-column-end: span 2;
+    margin-top:160px;
+}
+
+#aboutMeHeadText {
+    text-align: center;
+    padding-top: 1px;
+    margin-top:60px;
+}
+
+.animateLineHolder {
+    margin-top:20px;
+    margin-left:476px;
+    margin-right:460px;
+    padding-left:300px;
+    align-content:center;
+}
+
+.animateLine {
+  height:10px;
+  width:1px;
+  border-bottom:1px solid #000;
+  animation: increase 28s; 
+  animation-fill-mode: both;
+}
+
+@keyframes increase {
+    100% {
+        width: 175px;
+    }
+}
+
+#aboutMePadd {
+    padding-top:26px;
+    padding-bottom:70px;
+    padding-right:300px;
+    padding-left:300px;
+    letter-spacing: 2px;
+    margin-top:25px;
+    margin-bottom:60px;
+}
+
+.aboutMeSectBar {
+    grid-template-area: aboutMeSectBar;
+    grid-column-end: span 2;
+    margin-top:80px;
+    padding-top:29px;
+    background-color:#eae0c2;
+    color:#4C444C;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    font-size:36px;
+    height:70px;
+}
+
+#aboutMeSectTextPadd {
+    margin:15px;
+    padding-right:300px;
+    padding-left:300px;
+}
+
+.casePreview1 {
+    grid-template-area: casePreviewPic1;
+    /*align-self: center;*/
+}
+
+#buzzbuzzLogo {
+    margin-top:250px;
+    margin-left:175px;
+}
+
+#buzzbuzzLogoText {
+    margin-left:183px;
+    margin-right:92px;
+    margin-top;60px;
+    padding-top:24px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 8px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 490; 
+    line-height: 14px;
+    /*word-spacing:2px;*/
+}
+
+.casePreviewButton {
+	box-shadow: 0.05px 0.05px 0.05px 0.05px #1c1b18;
+	background:linear-gradient(linear, left top, left bottom, 
+	color-stop(0, #eae0c2), color-sto(0, #ccc2a6));
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	padding:9px 27px;
+	text-decoration:none;
+}
+.casePreviewButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);S
+	background-color:#ccc2a6;
+}
+.casePreviewButton:active {
+	position:relative;
+	top:1px;
+}
+
+#casePreviewButoonHolder {
+    width:50%;
+    margin-top:100px;
+}
+
+.casePreview1Pic {
+    grid-template-area: casePreview1Pic;
+}
+
+#previewPic1 {
+    margin-top:155px;
+    margin-left:80px;
+}
+
+#greyBackground {
+    /*background-color: #e6e6e6;*/
+}
+
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+  }
+  
+/*@media screen and (min-width: 1024px) {*/
+/*    a {*/
+/*        color:red;*/
+/*        background-color:red;*/
+/*    }*/
+/*}*/
+
+
