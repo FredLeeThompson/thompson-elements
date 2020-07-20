@@ -1,7 +1,6 @@
 /*////////////////////////////////////////////////////This is the CSS for the Visit Nebraska Project/////////////////////////////////////////////////*/
 
 
-
 .CSSGrid {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -34,39 +33,39 @@ a:active {
 }
 
 h3 {
-    font-family: 'Roboto Slab', serif, Muli; 
+    font-family: 'Roboto Slab', serif, Muli;
     font-size: 48px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 500; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
     line-height: 15.4px;
 }
 
 p {
     font-family: 'Roboto Slab', serif;
     font-size: 19px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 567; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 567;
     line-height: 20px;
     word-spacing:4.4px;
-    
+
 }
 
 
-.navLogo {
+.navlogo {
     grid-template-area: navLogo;
     height:auto;
     background-color: #4C444C;
     align-content: center;
 }
 
-#navLogoPadd {
+#navlogopadd {
     padding-left: 140px;
     padding-right: 100px;
 }
 
-.navText {
+.navtext {
     grid-template-area: navText;
     height:auto;
     background-color: #4C444C;
@@ -79,18 +78,18 @@ p {
     word-spacing: 20.3px;
 }
 
-#navTextPadd {
+#navtextpadd {
     width:370px;
     padding-top: 40px;
     padding-bottom: 30px;
     padding-right: 0px;
     padding-left:0px;
     line-height: 40px;
-    
+
 }
 
 
-.headerContentText {
+.headercontenttext {
     grid-template-area: headerContentText;
     height:auto;
     width:485px;
@@ -99,36 +98,36 @@ p {
     margin-right:0px;
 }
 
-#headerContentTextPadd {
+#headercontenttextpadd {
     padding-top:150px;
 }
 
-.myButton {
-	box-shadow: 3px 3px 0px 0px #1c1b18;
-	background:linear-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
-	background-color:#eae0c2;
-	border-radius:15px;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#505739;
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	font-style:italic;
-	padding:9px 27px;
-	text-decoration:none;
+.mybutton {
+box-shadow: 3px 3px 0px 0px #1c1b18;
+background:linear-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+background-color:#eae0c2;
+border-radius:15px;
+border:2px solid #333029;
+display:inline-block;
+cursor:pointer;
+color:#505739;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+font-style:italic;
+padding:9px 27px;
+text-decoration:none;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);S
-	background-color:#ccc2a6;
+.mybutton:hover {
+background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);S
+background-color:#ccc2a6;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+.mybutton:active {
+position:relative;
+top:1px;
 }
 
-#myButtonPadd {
+#mybuttonpadd {
     margin-left:210px;
     margin-right:260px;
     padding-top:7px;
@@ -136,7 +135,7 @@ p {
 }
 
 
-#headerImagePadd {
+#headerimagepadd {
     padding-top:40px;
 }
 
@@ -157,31 +156,34 @@ p {
     border-radius: 10px;
 }
 
-.aboutMeSect {
+.aboutmesect {
     grid-template-area: aboutMeSect;
     grid-column-end: span 2;
     margin-top:160px;
 }
 
-#aboutMeHeadText {
+.aboutmeheadtext {
     text-align: center;
     padding-top: 1px;
     margin-top:60px;
 }
 
-.animateLineHolder {
-    margin-top:20px;
-    margin-left:476px;
-    margin-right:460px;
-    padding-left:300px;
-    align-content:center;
-}
+/*.animateLineholder {*/
+/*    width:185px;*/
+/*    margin-top:20px;*/
+/*    margin-left:476px;*/
+/*    margin-right:460px;*/
+/*    padding-left:200px*/
+/*    align-content:center;*/
+/*}*/
 
-.animateLine {
+.animateline {
   height:10px;
   width:1px;
+  margin-top:10px;
+  margin-left:775px;
   border-bottom:1px solid #000;
-  animation: increase 28s; 
+  animation: increase 28s;
   animation-fill-mode: both;
 }
 
@@ -191,7 +193,7 @@ p {
     }
 }
 
-#aboutMePadd {
+#aboutmepadd {
     padding-top:26px;
     padding-bottom:70px;
     padding-right:300px;
@@ -201,7 +203,7 @@ p {
     margin-bottom:60px;
 }
 
-.aboutMeSectBar {
+.aboutmesectbar {
     grid-template-area: aboutMeSectBar;
     grid-column-end: span 2;
     margin-top:80px;
@@ -214,68 +216,68 @@ p {
     height:70px;
 }
 
-#aboutMeSectTextPadd {
+#aboutmesecttextpadd {
     margin:15px;
     padding-right:300px;
     padding-left:300px;
 }
 
-.casePreview1 {
+.casepreview1 {
     grid-template-area: casePreviewPic1;
     /*align-self: center;*/
 }
 
-#buzzbuzzLogo {
+#buzzbuzzlogo {
     margin-top:250px;
     margin-left:175px;
 }
 
-#buzzbuzzLogoText {
+#buzzbuzzlogotext {
     margin-left:183px;
     margin-right:92px;
     margin-top;60px;
     padding-top:24px;
     font-family: 'Roboto Slab', serif;
     font-size: 8px;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 490; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 490;
     line-height: 14px;
     /*word-spacing:2px;*/
 }
 
-.casePreviewButton {
-	box-shadow: 0.05px 0.05px 0.05px 0.05px #1c1b18;
-	background:linear-gradient(linear, left top, left bottom, 
-	color-stop(0, #eae0c2), color-sto(0, #ccc2a6));
-	background-color:#eae0c2;
-	border-radius:15px;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#505739;
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	font-style:italic;
-	padding:9px 27px;
-	text-decoration:none;
+.casepreviewbutton {
+box-shadow: 0.05px 0.05px 0.05px 0.05px #1c1b18;
+background:linear-gradient(linear, left top, left bottom,
+color-stop(0, #eae0c2), color-sto(0, #ccc2a6));
+background-color:#eae0c2;
+border-radius:15px;
+border:2px solid #333029;
+display:inline-block;
+cursor:pointer;
+color:#505739;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+font-style:italic;
+padding:9px 27px;
+text-decoration:none;
 }
-.casePreviewButton:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);S
-	background-color:#ccc2a6;
+.casepreviewbutton:hover {
+background:linear-gradient(to bottom, #ccc2a6 7%, #eae0c2 100%);S
+background-color:#ccc2a6;
 }
-.casePreviewButton:active {
-	position:relative;
-	top:1px;
+.casepreviewbutton:active {
+position:relative;
+top:1px;
 }
 
-#casePreviewButoonHolder {
+#casepreviewbutoonholder {
     width:50%;
     margin-top:100px;
 }
 
-.casePreview1Pic {
+.casepreview1pic {
     grid-template-area: casePreview1Pic;
 }
 
@@ -294,12 +296,10 @@ p {
   .flex-grid-thirds {
     display: block;
   }
-  
+
 /*@media screen and (min-width: 1024px) {*/
 /*    a {*/
 /*        color:red;*/
 /*        background-color:red;*/
 /*    }*/
 /*}*/
-
-
