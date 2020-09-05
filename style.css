@@ -4,7 +4,7 @@
 .CSSGrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto 675px auto 700px;
+    grid-template-rows: auto auto 675px auto 700px auto auto auto;
     justify-content: center;
     grid-template-areas:
     "navLogo navText"
@@ -12,7 +12,10 @@
     "headerContentText Content"
     "aboutMeSect aboutMeSect"
     "aboutMeSectBar  aboutMeSectBar"
-    "casePreview1 casePreview1Pic";
+    "casePreview1 casePreview1Pic"
+    "contactMe contactMe"
+    "contactMeContent contactMeContent"
+    "contactText contactText";
 }
 
 a {
@@ -25,8 +28,8 @@ a:link {
 a:visited {
     color: #F1F1F1;
 }
-a:hover {
-    color: #F1F1F1;
+.navtext a:hover {
+    color: #eae0c2;
 }
 a:active {
     color: #F1F1F1;
@@ -61,7 +64,7 @@ p {
 }
 
 #navlogopadd {
-    padding-left: 140px;
+    padding-left: 100px;
     padding-right: 100px;
 }
 
@@ -73,26 +76,28 @@ p {
     font-size:25px;
     color: #F1F1F1;
     text-align:right;
-    padding-left:110px;
-    padding-right:150px;
+    padding-left:0px;
+    padding-right:0px;
     word-spacing: 20.3px;
 }
 
 #navtextpadd {
-    width:370px;
+    margin-right:0px;
     padding-top: 40px;
     padding-bottom: 30px;
-    padding-right: 0px;
+    padding-right: 102px;
     padding-left:0px;
     line-height: 40px;
 
 }
 
 
+
+
 .headercontenttext {
     grid-template-area: headerContentText;
     height:auto;
-    width:485px;
+    width:auto;
     margin:20px;
     margin-top:20px;
     margin-right:0px;
@@ -168,6 +173,7 @@ top:1px;
     margin-top:60px;
 }
 
+
 /*.animateLineholder {*/
 /*    width:185px;*/
 /*    margin-top:20px;*/
@@ -206,8 +212,8 @@ top:1px;
 .aboutmesectbar {
     grid-template-area: aboutMeSectBar;
     grid-column-end: span 2;
-    margin-top:80px;
-    padding-top:29px;
+    margin-top:87px;
+    padding-top:41px;
     background-color:#eae0c2;
     color:#4C444C;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -217,7 +223,7 @@ top:1px;
 }
 
 #aboutmesecttextpadd {
-    margin:15px;
+    margin-top:25px;
     padding-right:300px;
     padding-left:300px;
 }
@@ -279,10 +285,7 @@ top:1px;
 
 .casepreview1pic {
     grid-template-area: casePreview1Pic;
-}
-
-#previewPic1 {
-    margin-top:155px;
+    padding-top:150px;
     margin-left:80px;
 }
 
@@ -290,6 +293,42 @@ top:1px;
     /*background-color: #e6e6e6;*/
 }
 
+.contactMe {
+  grid-template-area: contactMe;
+  grid-column-end: span 2;
+  /* justify-self: center;
+  margin-top:30px; */
+}
+
+.mapPadd {
+  margin-left:50%;
+  padding-left:60px;
+}
+
+.contactMeContent {
+  grid-template-area: contactMeContent;
+  grid-column-end:2;
+  justify-content:center;
+  margin-top:85px;
+}
+
+.contactText {
+  grid-template-area: contactText;
+  grid-column-end:2;
+  margin-top:30px;
+  margin-left:200px;
+  justify-content:center;
+  text-align:center;
+}
+
+.footer {
+  width:auto;
+  background-color: #4C444C;
+  color:#F1F1F1;
+}
+
+
+/*///////////////////////////////////Queries///////////////////////////////////*/
 
 @media (max-width: 400px) {
   .flex-grid,
