@@ -313,13 +313,26 @@ top:1px;
   margin-top:85px;
 }
 
+
 ul {
-  list-style-type:circle;
+    display: inline-block;
+    list-style: circle;
 }
 
 li {
   margin-bottom: 5px;
+  width:250px;
+  text-align:left;
 }
+
+button p {
+  color:black;
+}
+
+button p:hover {
+  color:#4d79ff;
+}
+
 
 .contactText {
   grid-template-area: contactText;
