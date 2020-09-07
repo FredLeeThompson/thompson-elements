@@ -308,7 +308,7 @@ top:1px;
 
 .contactMeContent {
   grid-template-area: contactMeContent;
-  grid-column-end:2;
+  grid-column-end: span 2;
   justify-content:center;
   margin-top:85px;
 }
@@ -324,7 +324,7 @@ top:1px;
 
 .footer {
   grid-template-area: footer;
-  grid-column-end: 2;
+  grid-column-end: spand 2;
   background-color: #4C444C;
   color:#F1F1F1;
 }
