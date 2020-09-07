@@ -4,7 +4,7 @@
 .CSSGrid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto 675px auto 700px auto auto auto;
+    grid-template-rows: auto auto 675px auto 700px auto auto auto auto;
     justify-content: center;
     grid-template-areas:
     "navLogo navText"
@@ -15,7 +15,8 @@
     "casePreview1 casePreview1Pic"
     "contactMe contactMe"
     "contactMeContent contactMeContent"
-    "contactText contactText";
+    "contactText contactText"
+    "footer footer";
 }
 
 a {
@@ -322,7 +323,7 @@ top:1px;
 }
 
 .footer {
-  width:auto;
+  grid-template-area: footer;
   background-color: #4C444C;
   color:#F1F1F1;
 }
