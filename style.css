@@ -316,7 +316,7 @@ top:1px;
 
 ul {
     display: inline-block;
-    list-style: circle;
+    list-style:disc;
     margin-top:28px;
 }
 
