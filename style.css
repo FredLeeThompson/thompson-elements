@@ -317,6 +317,7 @@ top:1px;
 ul {
     display: inline-block;
     list-style: circle;
+    margin-top:28px;
 }
 
 li {
@@ -330,14 +331,24 @@ button p {
 }
 
 button p:hover {
-  color:#4d79ff;
+  color:#0039e6;
+}
+
+button p:active {
+  color:green;
+  text-decoration:underline;
+}
+
+button p:visited {
+  color:red;
 }
 
 
 .contactText {
   grid-template-area: contactText;
   grid-column-end: span 2;
-  margin-top:30px;
+  margin-top:42px;
+  margin-bottom:20px;
   text-align:center;
 }
 
