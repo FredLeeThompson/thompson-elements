@@ -313,6 +313,14 @@ top:1px;
   margin-top:85px;
 }
 
+ul {
+  list-style-type:circle;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
 .contactText {
   grid-template-area: contactText;
   grid-column-end: span 2;
