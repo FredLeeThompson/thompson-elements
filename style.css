@@ -308,14 +308,14 @@ top:1px;
 
 .contactMeContent {
   grid-template-area: contactMeContent;
-  grid-column-end: span 2;
+  grid-column-end:2;
   justify-content:center;
   margin-top:85px;
 }
 
 .contactText {
   grid-template-area: contactText;
-  grid-column-end: span 2;
+  grid-column-end:2;
   margin-top:30px;
   margin-left:200px;
   justify-content:center;
@@ -324,7 +324,6 @@ top:1px;
 
 .footer {
   grid-template-area: footer;
-  grid-column-end: spand 2;
   background-color: #4C444C;
   color:#F1F1F1;
 }
