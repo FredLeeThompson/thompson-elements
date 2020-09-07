@@ -355,6 +355,7 @@ button p:visited {
 .footer {
   grid-template-area: footer;
   grid-column-end: span 2;
+  height:40px;
   background-color: #4C444C;
   text-align:center;
   color:#F1F1F1;
