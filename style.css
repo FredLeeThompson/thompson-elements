@@ -312,10 +312,9 @@ top:1px;
 
 
 ul {
-    display: inline-block;
+    display:inline-block;
     list-style:disc;
     margin-top:28px;
-    color:black;
 }
 
 li {
@@ -325,23 +324,21 @@ li {
   text-align:left;
 }
 
-
-.contactButtons {
-  color:black;
-  font-size:15px;
+button {
+  font-size:16px;
 }
 
-.contactButtons:hover {
-  color:#0039e6;
+
+button:hover {
+  color:blue;
 }
 
-.contactButtons:active {
-  color:green;
-  text-decoration:underline;
+button:active {
+  color:#00802b;
 }
 
-.contactButtons:visited {
-  color:red;
+button:visited {
+  color:#e60000;
 }
 
 
