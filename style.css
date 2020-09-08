@@ -19,20 +19,21 @@
     "footer footer";
 }
 
-a {
+#navtextpadd a {
     text-decoration: none;
+    color:white;
 }
 
-a:link {
+/* .navText a:link {
+    color: #F1F1F1;
+} */
+#navtextpadd a:visited {
     color: #F1F1F1;
 }
-a:visited {
-    color: #F1F1F1;
-}
-.navtext a:hover {
+#navtextpadd a:hover {
     color: #eae0c2;
 }
-a:active {
+#navtextpadd {
     color: #F1F1F1;
 }
 
@@ -314,6 +315,7 @@ ul {
     display: inline-block;
     list-style:disc;
     margin-top:28px;
+    color:black;
 }
 
 li {
@@ -324,8 +326,7 @@ li {
 }
 
 
-.contactButtons {
-  font-size: 17px;
+li a{
   color:black;
 }
 
