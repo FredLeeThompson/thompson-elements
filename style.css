@@ -326,8 +326,9 @@ li {
 }
 
 
-li a{
+.contactButtons {
   color:black;
+  font-size:15px;
 }
 
 .contactButtons:hover {
