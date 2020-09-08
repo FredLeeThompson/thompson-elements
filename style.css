@@ -319,23 +319,25 @@ ul {
 li {
   margin-bottom: 5px;
   width:250px;
+  color:black;
   text-align:left;
 }
 
-button p {
+
+.contactButtons p {
   color:black;
 }
 
-button p:hover {
+.contactButtons p:hover {
   color:#0039e6;
 }
 
-button p:active {
+.contactButtons p:active {
   color:green;
   text-decoration:underline;
 }
 
-button p:visited {
+.contactButtons p:visited {
   color:red;
 }
 
