@@ -324,20 +324,21 @@ li {
 }
 
 
-.contactButtons p {
+.contactButtons {
+  font-size: 17px;
   color:black;
 }
 
-.contactButtons p:hover {
+.contactButtons:hover {
   color:#0039e6;
 }
 
-.contactButtons p:active {
+.contactButtons:active {
   color:green;
   text-decoration:underline;
 }
 
-.contactButtons p:visited {
+.contactButtons:visited {
   color:red;
 }
 
