@@ -290,10 +290,6 @@ top:1px;
     margin-left:80px;
 }
 
-#greyBackground {
-    /*background-color: #e6e6e6;*/
-}
-
 .contactMe {
   grid-template-area: contactMe;
   grid-column-end: span 2;
