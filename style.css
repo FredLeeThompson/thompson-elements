@@ -3,13 +3,14 @@
 
 .CSSGrid {
     display: grid;
+    width: 100%;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto 675px auto 700px auto auto auto auto;
     justify-content: center;
     grid-template-areas:
     "navLogo navText"
     /*"logoBannerArea logoBannerArea"*/
-    "headerContentText Content"
+    "headerContentText content"
     "aboutMeSect aboutMeSect"
     "aboutMeSectBar  aboutMeSectBar"
     "casePreview1 casePreview1Pic"
@@ -107,6 +108,11 @@ p {
 
 #headercontenttextpadd {
     padding-top:150px;
+}
+
+.content {
+  grid-template-area: content;
+
 }
 
 .mybutton {
@@ -363,33 +369,34 @@ button:visited {
 /*///////////////////////////////////Queries///////////////////////////////////*/
 
 @media screen and (max-width: 376px) {
+  .navtext {
+    background-color: blue;
+  }
+
   #navtextpadd {
     margin-right:0px;
     padding-right:0px;
   }
 
-  .navText {
-    width:100%;
-  }
+
   .CSSGrid {
       display: grid;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: auto auto auto 675px auto 700px auto auto auto auto;
-      justify-content: center;
+      width: 100%;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      /* justify-content: center; */
       grid-template-areas:
-      "navLogo navLogo"
-      "navText navText"
-      /*"logoBannerArea logoBannerArea"*/
-      "headerContentText Content"
-      "aboutMeSect aboutMeSect"
-      "aboutMeSectBar  aboutMeSectBar"
-      "casePreview1 casePreview1Pic"
-      "contactMe contactMe"
-      "contactMeContent contactMeContent"
-      "contactText contactText"
-      "footer footer";
+      "navLogo"
+      "navText";
   }
 
+  .navLogo {
+    width:30px;
+  }
+  #navlogopadd {
+    padding:0px;
+    margin:0px;
+  }
 
 }
 
