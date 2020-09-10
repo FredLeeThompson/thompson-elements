@@ -364,6 +364,7 @@ button:visited {
 
 @media screen and (max-width: 375px) {
   #navtextpadd {
+    margin-right:0px;
     padding-right:0px;
   }
 
