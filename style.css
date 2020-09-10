@@ -362,11 +362,18 @@ button:visited {
 
 /*///////////////////////////////////Queries///////////////////////////////////*/
 
-@media (max-width: 400px) {
+@media screen (max-width: 375px) {
+  #navtextpadd {
+    padding-right:0px;
+  }
+}
+
+
+/* @media (max-width: 400px) {
   .flex-grid,
   .flex-grid-thirds {
     display: block;
-  }
+  } */
 
 /*@media screen and (min-width: 1024px) {*/
 /*    a {*/
